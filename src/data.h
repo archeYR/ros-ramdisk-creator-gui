@@ -145,13 +145,13 @@ INI_DATA BootCDIniData[] =
     {"Operating Systems", "BootCD_Screen", "\"BootCD (Screen)\""},
     {"BootCD", "BootType", "ReactOSSetup"},
     {"BootCD", "SystemPath", "ramdisk(0)\\"},
-    {"BootCD", "Options", "/MININT /RDPATH=bootcd.iso /RDEXPORTASCD"},
+    {"BootCD", "Options", "/MININT /RDPATH=bootcd.iso /RDEXPORTASCD /SIFOPTIONSOVERRIDE"},
     {"BootCD_Debug", "BootType", "ReactOSSetup"},
     {"BootCD_Debug", "SystemPath", "ramdisk(0)\\"},
-    {"BootCD_Debug", "Options", "/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS /MININT /RDPATH=bootcd.iso /RDEXPORTASCD"},
+    {"BootCD_Debug", "Options", "/DEBUG /DEBUGPORT=COM1 /BAUDRATE=115200 /SOS /MININT /RDPATH=bootcd.iso /RDEXPORTASCD /SIFOPTIONSOVERRIDE"},
     {"BootCD_Screen", "BootType", "ReactOSSetup"},
     {"BootCD_Screen", "SystemPath", "ramdisk(0)\\"},
-    {"BootCD_Screen", "Options", "/DEBUG /DEBUGPORT=SCREEN /SOS /MININT /RDPATH=bootcd.iso /RDEXPORTASCD"},
+    {"BootCD_Screen", "Options", "/DEBUG /DEBUGPORT=SCREEN /SOS /MININT /RDPATH=bootcd.iso /RDEXPORTASCD /SIFOPTIONSOVERRIDE"},
 };
 
 INI_DATA LiveCDIniData[] =
